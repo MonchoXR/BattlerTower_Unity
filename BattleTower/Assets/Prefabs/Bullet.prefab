@@ -111,4 +111,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dirBullet: {x: 0, y: 0, z: 1}
+  TimeDestroy: 4
   speed: 1
