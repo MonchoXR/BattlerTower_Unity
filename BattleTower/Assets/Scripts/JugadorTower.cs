@@ -11,13 +11,26 @@ public class JugadorTower : MonoBehaviour
     public int damage;
     void Start()
     {
-        Disparo();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            Disparo();
+        }
+
+          if(Input.GetKeyDown(KeyCode.K))
+        {
+            Disparo();
+        }
+
+          if(Input.GetKeyDown(KeyCode.L))
+        {
+            Disparo();
+        }
     }
 
     void Disparo(){
